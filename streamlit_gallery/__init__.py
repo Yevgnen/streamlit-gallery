@@ -7,9 +7,8 @@ from typing import Dict, Iterable, Mapping, Optional, Union
 import spacy
 import streamlit as st
 from spacy import displacy
-
-from streamlit_gallary.palette import Colors
-from streamlit_gallary.utils import get_html, seed
+from streamlit_gallery.palette import Colors
+from streamlit_gallery.utils import get_html, seed
 
 
 def get_colors(k):

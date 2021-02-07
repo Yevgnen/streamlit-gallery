@@ -22,10 +22,10 @@ VERSION = find_version("texi", "__init__.py")
 
 
 setup(
-    name="streamlit-gallary",
-    description="Streamlit gallary.",
+    name="streamlit-gallery",
+    description="Streamlit gallery.",
     version=VERSION,
-    url="https://github.com/Yevgnen/streamlit-gallary",
+    url="https://github.com/Yevgnen/streamlit-gallery",
     author="Yevgnen Koh",
     author_email="wherejoystarts@gmail.com",
     packages=find_packages(exclude=("tests", "tests.*")),
