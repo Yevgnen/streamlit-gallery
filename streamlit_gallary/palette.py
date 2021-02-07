@@ -1,0 +1,51 @@
+# -*- coding: utf-8 -*-
+
+
+class Colors(object):
+    PRESET12 = [
+        "#e31a1c",
+        "#33a02c",
+        "#1f78b4",
+        "#ff7f00",
+        "#cab2d6",
+        "#fdbf6f",
+        "#b2df8a",
+        "#6a3d9a",
+        "#b15928",
+        "#fb9a99",
+        "#a6cee3",
+        "#ffff99",
+    ]
+
+    PRESETS30 = [
+        "#af1446",
+        "#c0274a",
+        "#d13a4e",
+        "#de4b4b",
+        "#e75a47",
+        "#f16943",
+        "#f67c4a",
+        "#f99354",
+        "#fca75e",
+        "#fdb86a",
+        "#fdc877",
+        "#fdda86",
+        "#fee695",
+        "#feefa5",
+        "#fef9b5",
+        "#fafdb8",
+        "#f2faab",
+        "#eaf69f",
+        "#dff299",
+        "#cae99d",
+        "#b7e2a1",
+        "#a4daa4",
+        "#8ed1a4",
+        "#76c8a4",
+        "#61bda6",
+        "#51abae",
+        "#4199b5",
+        "#3484bb",
+        "#4272b2",
+        "#5060aa",
+    ]
