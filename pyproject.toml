@@ -6,8 +6,27 @@ authors = ["Yevgnen Koh <wherejoystarts@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+streamlit = "^0.76.0"
+spacy = "^3.0.1"
 
 [tool.poetry.dev-dependencies]
+autoflake = "^1.4"
+better-exceptions = "^0.3.3"
+black = "^20.8b1"
+faker = "^6.0.0"
+flake8 = "^3.8.4"
+ipdb = "^0.13.4"
+ipython = "^7.20.0"
+isort = "^5.7.0"
+jedi-language-server = "0.21.0"
+jupyter-nbextensions-configurator = "^0.4.1"
+loguru = "^0.5.3"
+nose2 = "^0.10.0"
+notifiers = "^1.2.1"
+pre-commit = "^2.10.0"
+pudb = "^2020.1"
+pylint = "^2.6.0"
+watchpoints = "^0.1.5"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
