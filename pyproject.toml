@@ -1,13 +1,13 @@
 [tool.poetry]
-name = "streamlit-gallery"
+name = "streamlit-crosswoz"
 version = "0.1.0"
-description = "Streamlit gallery."
+description = "Visualize CrossWOZ dataset using Streamlit."
 authors = ["Yevgnen Koh <wherejoystarts@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-streamlit = "^0.76.0"
-spacy = "^3.0.1"
+streamlit = "*"
+pandas = "*"
 
 [tool.poetry.dev-dependencies]
 autoflake = "^1.4"

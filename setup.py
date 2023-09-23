@@ -18,20 +18,19 @@ def find_version(*paths):
         return match.group("ver")
 
 
-VERSION = find_version("streamlit_gallery", "__init__.py")
+VERSION = find_version("streamlit_crosswoz", "__init__.py")
 
 
 setup(
-    name="streamlit-gallery",
-    description="Streamlit gallery.",
+    name="streamlit-crosswoz",
+    description="Visualize CrossWOZ dataset using Streamlit.",
     version=VERSION,
-    url="https://github.com/Yevgnen/streamlit-gallery",
+    url="https://github.com/Yevgnen/streamlit-crosswoz",
     author="Yevgnen Koh",
     author_email="wherejoystarts@gmail.com",
     packages=find_packages(exclude=("tests", "tests.*")),
     include_package_data=True,
     install_requires=[
-        "spacy",
         "streamlit",
     ],
     test_suite="tests",
